@@ -6,15 +6,12 @@ import string
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
-nltk.download('punkt')
-nltk.download('stopwords')
-
 ps = PorterStemmer()
 
 # ---------------- TEXT TRANSFORM ----------------
 def transform_text(text):
     text = text.lower()
-    text = nltk.word_tokenize(text)
+    text = nltk.slit()
 
     y = []
     for i in text:
