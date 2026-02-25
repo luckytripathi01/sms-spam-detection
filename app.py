@@ -11,7 +11,7 @@ ps = PorterStemmer()
 # ---------------- TEXT TRANSFORM ----------------
 def transform_text(text):
     text = text.lower()
-    text = nltk.slit()
+    text = text.split()
 
     y = []
     for i in text:
