@@ -1,5 +1,5 @@
 
-📧 SMS Spam Detection System
+🚨AI SMS Spam Detection System
 🚀 Live Demo: [https://ai-sms-spam-detection.streamlit.app/]
 This project is a Machine Learning application designed to classify SMS messages as either Spam or Ham (Legitimate).
 
